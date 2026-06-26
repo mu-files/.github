@@ -1,6 +1,6 @@
 ## About
 
-Welcome to my code repository. I'm an individual developer and `mu-files` is where I publish the custom software infrastructure, libraries, and desktop utilities I build to handle image-processing tasks.
+Welcome to our code repository. mu-files LLC is a software development organization specializing in custom software infrastructure, libraries, and desktop utilities for image-processing tasks.
 
 Everything here is **source-available** and completely **free for personal, academic, non-profit, government, and small business use**.
 
