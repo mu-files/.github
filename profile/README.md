@@ -8,7 +8,7 @@ Everything here is **source-available** and completely **free for personal, acad
 
 ## Organization of the code
 
-My software focuses heavily on **RAW image infrastructure, time-lapse compilation, and astrophotography data pipelines**.
+The software focuses heavily on **RAW image infrastructure, time-lapse compilation, and astrophotography data pipelines**.
 
 | Repository / Module | Target Audience | Primary Focus |
 | :--- | :--- | :--- |
