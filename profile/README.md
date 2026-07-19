@@ -2,7 +2,7 @@
 
 Welcome to our code repository. mu-files LLC is a software development organization specializing in custom software infrastructure, libraries, and desktop utilities for image-processing tasks.
 
-Public packages here are released under the **BSD 3-Clause License**.
+All packages here are released under the **BSD 3-Clause License**.
 
 ---
 
