@@ -2,7 +2,7 @@
 
 Welcome to our code repository. mu-files LLC is a software development organization specializing in custom software infrastructure, libraries, and desktop utilities for image-processing tasks.
 
-Everything here is **source-available** and completely **free for personal, academic, non-profit, government, and small business use**.
+Public packages here are released under the **BSD 3-Clause License**.
 
 ---
 
@@ -13,19 +13,15 @@ The software focuses heavily on **RAW image infrastructure, time-lapse compilati
 | Repository / Module | Target Audience | Primary Focus |
 | :--- | :--- | :--- |
 | [**`muimg`**](https://github.com/mu-files/mu-image/tree/main/muimg) | Developers & Engineers | A Python library and CLI tool providing a comprehensive API for native Adobe DNG manipulation, custom RAW rendering pipelines, and parallel batch processing. |
-| [**`mu-dng-converter`**](https://github.com/mu-files/mu-image/tree/main/mu-dng-converter) | Astrophotographers & Editors | A lightweight, cross-platform desktop application built on Flet. Compiles raw DNG sequences into MP4 videos or tif seqeunces (ideal for timelapse footage) and converts astronomical FITS files to DNGs. Both source code and built installer packages are available. |
+| [**`mu-dng-converter`**](https://github.com/mu-files/mu-image/tree/main/mu-dng-converter) | Astrophotographers & Editors | A lightweight, cross-platform desktop application. Transcodes and processes DNGs (compression, metadata operations), renders DNG sequences into MP4 videos or image sequences (ideal for timelapse footage), and converts astronomical FITS files to DNGs. Both source code and built installer packages are available. |
 | [**`mu-rasppi`**](https://github.com/mu-files/mu-rasppi) | Raspberry Pi camera users | Example code and benchmarks for Raspberry Pi setups. Includes scripts to capture raw frames from ZWO ASI or Raspberry Pi HQ Camera cameras directly to DNG, and performance benchmarks against PiDNG. |
 
 ---
 
 ## Licensing & Usage Terms
 
-The repositories are governed by specific source-available terms:
-
-- **Personal, academic & public service**: 100% free. Any individual, academic institution, non-profit organization, or government entity performing non-commercial work is fully permitted to use this software.
-- **Small businesses**: Free for entities (including affiliates) with fewer than 100 total employees/contractors and less than $10,000,000 USD in total annual revenue (via a customised PolyForm Small Business License 1.0.0).
-- **Commercial scale**: Entities exceeding the small business threshold require explicit commercial licensing.
-- **AI/ML training restriction**: The core implementation source code is prohibited from being ingested into AI/ML training datasets. See `llms.txt` and `robots.txt` for specific allowed paths such as documentation and examples.
+- **License**: [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause). See each repository's `LICENSE` file for the full text.
+- **AI/crawler preferences**: The intent of [`llms.txt`](https://github.com/mu-files/mu-image/blob/main/llms.txt) and [`robots.txt`](https://github.com/mu-files/mu-image/blob/main/robots.txt) is that the core `muimg` package (`muimg/muimg/` and `muimg/c-src/`) **NOT** be used for LLM or ML training. Documentation, tests, and examples may be used for learning the API.
 
 ---
 
