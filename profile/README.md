@@ -12,9 +12,10 @@ The software focuses heavily on **RAW image infrastructure, time-lapse compilati
 
 | Repository / Module | Target Audience | Primary Focus |
 | :--- | :--- | :--- |
-| [**`muimg`**](https://github.com/mu-files/mu-image/tree/main/muimg) | Developers & Engineers | A Python library and CLI tool providing a comprehensive API for native Adobe DNG manipulation, custom RAW rendering pipelines, and parallel batch processing. |
-| [**`mu-dng-converter`**](https://github.com/mu-files/mu-image/tree/main/mu-dng-converter) | Astrophotographers & Editors | A lightweight, cross-platform desktop application. Transcodes and processes DNGs (compression, metadata operations), renders DNG sequences into MP4 videos or image sequences (ideal for timelapse footage), and converts astronomical FITS files to DNGs. Both source code and built installer packages are available. |
-| [**`mu-rasppi`**](https://github.com/mu-files/mu-rasppi) | Raspberry Pi camera users | Example code and benchmarks for Raspberry Pi setups. Includes scripts to capture raw frames from ZWO ASI or Raspberry Pi HQ Camera cameras directly to DNG, and performance benchmarks against PiDNG. |
+| [**`mufusion`**](https://github.com/mu-files/mufusion/tree/main/mufusion) | Developers & Engineers | A lazy, fused image compute graph with a NumPy interface. Chains optimized image-processing primitives into native code, and works alongside NumPy and OpenCV. `pip install mufusion` |
+| [**`muraw`**](https://github.com/mu-files/mufusion/tree/main/muraw) | Developers & Engineers | A Python library and CLI built on `mufusion`, providing a comprehensive API for native Adobe DNG manipulation, custom RAW rendering pipelines, and parallel batch processing. `pip install muraw` |
+| [**`mu-dng-converter`**](https://github.com/mu-files/mufusion/tree/main/mu-dng-converter) | Astrophotographers & Editors | A lightweight, cross-platform desktop application. Transcodes and processes DNGs (compression, metadata operations), renders DNG sequences into MP4 videos or image sequences (ideal for timelapse footage), and converts astronomical FITS files to DNGs. Both source code and [built installer packages](https://github.com/mu-files/mufusion/releases) are available. |
+| [**`muraspi`**](https://github.com/mu-files/mufusion/tree/main/muraspi) | Raspberry Pi camera users | Example code and benchmarks for Raspberry Pi setups. Includes scripts to capture raw frames from ZWO ASI or Raspberry Pi HQ Camera cameras directly to DNG, and performance benchmarks against PiDNG. |
 
 ---
 
